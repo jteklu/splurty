@@ -29,8 +29,21 @@
 	<hr />
 	<br class = "clear" />
 
+<div class = "container">
+	<%= yield %>
+</div>
 
-<%= yield %>
+<div class ="footer">
+	<div class = "contaimer">
+		<div class = "col-xs-6">
+			<%= link_to "This can't be all, show me more.", '#', :class => 'next-quote'%>
+		</div>
+		<div class = "col-xs-6 footer-blurb">
+			Proudly hacked in Baltimore, MD by <a href="https://linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile">Jonathan</a><br />
+			Want to build your own Splurty and other Web Apps? - <a href="http://thefirehoseproject.com/">Learn how to code here.</a> 
+		</div>
+	</div>
+</div>
 
 </body>
 </html>
